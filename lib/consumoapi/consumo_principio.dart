@@ -1,0 +1,1 @@
+//aula 115 - json sempre devem ser com aspas duplas. Sempre que for mais de um objeto, você deve usar [] (é um array por conta dos colchetes). Vai ser um objeto quando tiver um {}

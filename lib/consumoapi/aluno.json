@@ -14,5 +14,14 @@
             "Nome": "academia sport e ação",
             "isAluno": true
         }
-    ]
+    ],
+    "telefone": {
+        "ddd": 11,
+        "telefone": "61994609218"
+    },
+    "endereço": {
+        "rua": "Conjunto D",
+        "numero": 43,
+        "CEP": "72225174"
+    }
 }

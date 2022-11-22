@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Daniel",
+        "idade": 24,
+        "nomeCursos": [
+            "academia do flutter",
+            "academia sport e ação"
+        ]
+    },
+    {
+        "nome": "Marina",
+        "idade": 23,
+        "nomeCursos": [
+            "academia do flutter",
+            "academia sport e ação"
+        ]
+    },
+    {
+        "nome": "Neymar",
+        "idade": 28,
+        "nomeCursos": [
+            "academia do flutter",
+            "academia sport e ação"
+        ]
+    }
+]
