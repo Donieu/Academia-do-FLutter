@@ -2,9 +2,9 @@
 import 'dart:convert';
 
 class Curso {
-  final int id;
-  final String nome;
-  final bool isAluno;
+  int id;
+  String nome;
+  bool isAluno;
 
   Curso({required this.id, required this.nome, required this.isAluno});
 

@@ -2,8 +2,8 @@
 import 'dart:convert';
 
 class Cidade {
-  final int id;
-  final String nome;
+  int id;
+  String nome;
 
   Cidade({
     required this.id,
@@ -18,7 +18,7 @@ class Cidade {
   }
 
   factory Cidade.fromMap(Map<String, dynamic> map) {
-    return Cidade(id: map['id'] ?? 0, nome: map['cidade'] ?? '');
+    return Cidade(id: map['id'] ?? 0, nome: map['nome'] ?? '');
   }
 
   String toJson() => jsonEncode(toMap());

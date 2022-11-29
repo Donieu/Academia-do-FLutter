@@ -1,5 +1,6 @@
-
-{
+[
+    {
+    "id": "1",
     "nome": "Daniel",
     "idade": 24,
     "nomeCursos": ["academia do flutter", "academia sport e ação"],
@@ -24,4 +25,5 @@
         "numero": 43,
         "CEP": "72225174"
     }
-}
+    }
+]

@@ -7,11 +7,11 @@ import 'package:dart_poo/model/cidade.dart';
 import 'package:dart_poo/model/telefone.dart';
 
 class Endereco {
-  final String rua;
-  final int numero;
-  final String cep;
-  final Cidade cidade;
-  final Telefone telefone;
+  String rua;
+  int numero;
+  String cep;
+  Cidade cidade;
+  Telefone telefone;
 
   Endereco({
     required this.rua,

@@ -1,26 +1,70 @@
 [
     {
-        "nome": "Daniel",
+        "Id": "1",
+        "nome": "Daniel Breno",
         "idade": 24,
         "nomeCursos": [
-            "academia do flutter",
-            "academia sport e ação"
-        ]
+            "Academia do Flutter",
+            "Enfermagem"
+        ],
+        "cursos": [
+            {
+                "id": 1,
+                "nome": "Academia do flutter",
+                "isAluno": true
+            },
+            {
+                "Id": 2,
+                "nome": "Enfermagem",
+                "isAluno": false
+            }
+        ],
+        "endereço": {
+            "rua": "Rua dos bobos",
+            "numero": 0,
+            "CEP": "Não tinha CEP, não tinha nada",
+            "cidade": {
+                "id": 1,
+                "nome": "Conto de fadas"
+            },
+            "telefone": {
+                "DDD": 61,
+                "telefone": "61994609220"
+            }
+        }
     },
     {
-        "nome": "Marina",
+        "Id": 2,
+        "nome": "Marina Maia",
         "idade": 23,
         "nomeCursos": [
-            "academia do flutter",
-            "academia sport e ação"
-        ]
-    },
-    {
-        "nome": "Neymar",
-        "idade": 28,
-        "nomeCursos": [
-            "academia do flutter",
-            "academia sport e ação"
-        ]
+            "Coordenação laboratorial",
+            "Enfermagem"
+        ],
+        "cursos": [
+            {
+                "id": 1,
+                "nome": "Coordenação laboratorial",
+                "isAluno": true
+            },
+            {
+                "Id": 2,
+                "nome": "Enfermagem",
+                "isAluno": false
+            }
+        ],
+        "endereço": {
+            "rua": "QNQ 12/12",
+            "numero": 0,
+            "CEP": "Não tinha CEP, não tinha nada",
+            "cidade": {
+                "id": 1,
+                "nome": "Conto de fadas"
+            },
+            "telefone": {
+                "DDD": 61,
+                "telefone": "6199666"
+            }
+        }
     }
 ]

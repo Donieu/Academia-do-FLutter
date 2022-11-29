@@ -1,11 +1,10 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 //AULA 120 - Métddos que convertem json para objetos para classes. Então cria-se métodos para auxlliar
 
 import 'dart:convert';
 
 class Telefone {
-  final int ddd;
-  final String telefone;
+  int ddd;
+  String telefone;
 
   Telefone({
     required this.ddd,
