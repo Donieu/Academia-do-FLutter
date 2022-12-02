@@ -36,17 +36,15 @@ class Aluno {
       id: map['id'] ?? '',
       nome: map['nome'] ?? '',
       idade: map['idade'],
-      nomeCursos: List<String>.from(map['nomeCursos']),
+      nomeCursos: List<String>.from(map['nomeCursos'] ?? []),
       // nomeCursos: map['nomeCursos'].cast<String>(),
-      endereco: Endereco.fromMap(map['endereco']),
+      endereco: Endereco.fromMap(map['endereco'] ?? {}),
       cursos: map['cursos'].map<Curso>((cursoMap) => Curso.fromMap(cursoMap)).toList(),
     );
   }
 
   String toJson() => jsonEncode(toMap());
   factory Aluno.fromJson(String json) => Aluno.fromMap(jsonDecode(json));
-
-  
 
   @override
   String toString() {

@@ -35,9 +35,9 @@ class Endereco {
     return Endereco(
         rua: map['rua'] ?? '',
         numero: map['numero'] ?? 0,
-        cep: map['CEP'] ?? 0,
-        cidade: Cidade.fromMap(map['cidade']),
-        telefone: Telefone.fromMap(map['telefone']));
+        cep: map['CEP'] ?? '',
+        cidade: Cidade.fromMap(map['cidade'] ?? {}),
+        telefone: Telefone.fromMap(map['telefone'] ?? {}));
   }
 
   String toJson() => jsonEncode(toMap());
