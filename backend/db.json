@@ -1,70 +1,72 @@
-[
-    {
-        "Id": "1",
-        "nome": "Daniel Breno",
-        "idade": 24,
-        "nomeCursos": [
-            "Academia do Flutter",
-            "Enfermagem"
-        ],
-        "cursos": [
-            {
-                "id": 1,
-                "nome": "Academia do flutter",
-                "isAluno": true
-            },
-            {
-                "Id": 2,
-                "nome": "Enfermagem",
-                "isAluno": false
+{
+    "alunos": [
+        {
+            "id": "1",
+            "nome": "Daniel Breno",
+            "idade": 24,
+            "nomeCursos": [
+                "Academia do Flutter",
+                "Enfermagem"
+            ],
+            "cursos": [
+                {
+                    "id": 1,
+                    "nome": "Academia do flutter",
+                    "isAluno": true
+                },
+                {
+                    "id": 2,
+                    "nome": "Enfermagem",
+                    "isAluno": false
+                }
+            ],
+            "endereço": {
+                "rua": "Rua dos bobos",
+                "numero": 0,
+                "CEP": "Não tinha CEP, não tinha nada",
+                "cidade": {
+                    "id": 1,
+                    "nome": "Conto de fadas"
+                },
+                "telefone": {
+                    "DDD": 61,
+                    "telefone": "61994609220"
+                }
             }
-        ],
-        "endereço": {
-            "rua": "Rua dos bobos",
-            "numero": 0,
-            "CEP": "Não tinha CEP, não tinha nada",
-            "cidade": {
-                "id": 1,
-                "nome": "Conto de fadas"
-            },
-            "telefone": {
-                "DDD": 61,
-                "telefone": "61994609220"
+        },
+        {
+            "id": "2",
+            "nome": "Marina Maia",
+            "idade": 23,
+            "nomeCursos": [
+                "Coordenação laboratorial",
+                "Enfermagem"
+            ],
+            "cursos": [
+                {
+                    "id": 1,
+                    "nome": "Coordenação laboratorial",
+                    "isAluno": true
+                },
+                {
+                    "id": 2,
+                    "nome": "Enfermagem",
+                    "isAluno": false
+                }
+            ],
+            "endereço": {
+                "rua": "QNQ 12/12",
+                "numero": 0,
+                "CEP": "Não tinha CEP, não tinha nada",
+                "cidade": {
+                    "id": 1,
+                    "nome": "Conto de fadas"
+                },
+                "telefone": {
+                    "DDD": 61,
+                    "telefone": "6199666"
+                }
             }
         }
-    },
-    {
-        "Id": "2",
-        "nome": "Marina Maia",
-        "idade": 23,
-        "nomeCursos": [
-            "Coordenação laboratorial",
-            "Enfermagem"
-        ],
-        "cursos": [
-            {
-                "id": 1,
-                "nome": "Coordenação laboratorial",
-                "isAluno": true
-            },
-            {
-                "Id": 2,
-                "nome": "Enfermagem",
-                "isAluno": false
-            }
-        ],
-        "endereço": {
-            "rua": "QNQ 12/12",
-            "numero": 0,
-            "CEP": "Não tinha CEP, não tinha nada",
-            "cidade": {
-                "id": 1,
-                "nome": "Conto de fadas"
-            },
-            "telefone": {
-                "DDD": 61,
-                "telefone": "6199666"
-            }
-        }
-    }
-]
+    ]
+}
