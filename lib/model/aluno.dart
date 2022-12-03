@@ -5,7 +5,7 @@ import 'package:dart_poo/model/curso.dart';
 import 'package:dart_poo/model/endereco.dart';
 
 class Aluno {
-  String id;
+  String? id;
   String nome;
   int? idade;
   List<String> nomeCursos;
@@ -13,7 +13,7 @@ class Aluno {
   List<Curso> cursos;
 
   Aluno(
-      {required this.id,
+      {this.id,
       required this.nome,
       this.idade,
       required this.nomeCursos,

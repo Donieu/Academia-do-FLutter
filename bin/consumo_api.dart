@@ -1,13 +1,17 @@
 //aula 119 - TRABALHANDO COM JSOn NO DART
 //1- primeira coisa a se fazer é uma conversão do objeto json, para um objeto do dart
 import 'dart:convert';
+import 'package:dart_poo/consumo_api_movies2/filme_controller.dart';
 import 'package:dart_poo/controller/alunos_controller.dart';
 import 'package:dart_poo/model/telefone.dart';
 
 void main() {
-  AlunosController().findAll();
-    AlunosController().findById("1");
-
+  //AlunosController().findAll();
+  //AlunosController().findById("a0b97e30-7312-11ed-958f-dddafd802213");
+  //AlunosController().update();
+  //AlunosController().insert();
+  //FilmeController().findAll();
+  FilmeController().findById("Avatar");
 }
 
 void main2(List<String> arguments) {
